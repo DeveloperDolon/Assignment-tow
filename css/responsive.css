@@ -136,6 +136,10 @@
 
 /* medium device responsive code start from here */
 @media screen and (min-width: 577px) and (max-width: 826px) {
+    header {
+        height: auto;
+    }
+
     .nav_section {
         flex-direction: column;
         align-items: center;
@@ -170,13 +174,18 @@
     }
 
     .gamer_container {
-        margin-top: 500px;
+        margin-top: 0px;
         flex-direction: column;
+        gap: 20px;
     }
 
     .gamer_text_part {
         width: 100%;
         text-align: center;
+    }
+
+    .gamer_section {
+        background: transparent;
     }
 }
 /* medium device responsive code end from here */
