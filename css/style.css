@@ -224,3 +224,92 @@ header nav {
     margin-top: 5px;
 }
 /* we are gamer section styling end from here */
+
+
+/* funny video section styling start from here */
+
+.funny_video_section {
+    margin-top: 90px;
+}
+
+.funny_video_title {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.funny_video_description {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video_card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.card_img img{
+    width: 100%;
+}
+
+.card p {
+    margin-top: 15px;
+    line-height: 1.5rem;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.play_content {
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    visibility: hidden;
+    transition: .1s ease;
+}
+
+.play_content i {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.overlay {
+    visibility: hidden;
+    position: absolute;
+    transition: .3s ease;
+}
+
+.play_content strong {
+    color: #F948B2;
+}
+
+.card_img:hover .overlay {
+    visibility: visible;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 4px);
+    background-color: rgba(0, 0, 0, 0.664); /* Replace with your desired background color */
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.card_img:hover .play_content {
+    visibility: visible;
+    z-index: 2;
+}
+
+.card_img {
+    position: relative;
+}
+
+.card_img:hover > img  {
+    border-radius: 10px;
+    outline: 5px solid #FF42A5;
+}
+
+
+/* funny video section styling end from here */

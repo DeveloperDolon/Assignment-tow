@@ -115,7 +115,7 @@
     }
 
     .gamer_title {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .gamer_description {
@@ -129,6 +129,36 @@
 
     .our_purpose .quote {
         font-size: 1rem;
+    }
+
+    .video_card {
+        grid-template-columns: 1fr;
+    }
+
+    .funny_video_section {
+        margin-top: 20px;
+    }
+
+    .funny_video_title {
+        font-size: 1.6rem;
+    }
+
+    .funny_video_description {
+        font-size: .7rem;
+        margin-top: 10px;
+    } 
+
+    .video_card {
+        margin-top: 30px;
+    }
+
+    .card p {
+        margin-top: 8px;
+        font-size: .7rem;
+    }
+
+    .play_content {
+        left: 37%;
     }
 
 }
@@ -186,6 +216,10 @@
 
     .gamer_section {
         background: transparent;
+    }
+
+    .video_card {
+        grid-template-columns: 1fr 1fr;
     }
 }
 /* medium device responsive code end from here */
