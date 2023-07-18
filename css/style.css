@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .standard_size {
@@ -21,17 +22,17 @@
 /* header section styling start from here */
 
 header {
-    height: 100vh;
+    height: 102.5vh;
 }
 
 header nav {
-    box-shadow: 1px 1px 10px 1px #dfdbdb;
+    box-shadow: 1px 1px 10px 1px #f1f1f1;
 }
 
 .nav_section {   
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .nav_items {
@@ -53,6 +54,7 @@ header nav {
     text-decoration: none;
     font-size: 16px;
     color: #3C354F;
+    font-weight: 500;
 }
 
 .head_button {
@@ -92,3 +94,74 @@ header nav {
     color: #FF42A5;
 }
 /* header section styling end from here */
+
+
+/* banner section styling start from here */
+.banner_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all_banner {
+    background-image: url("../images/Group\ 14.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.banner_img_part {
+    text-align: right;
+}
+
+.banner_img_part img {
+    width: 75%;
+    height: 100%;
+}
+
+.banner_text_part h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.banner_style_txt {
+    font-size: 4rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature_text p i {
+    color: red;
+    margin-right: 7px;
+}
+
+.feature_text p:last-child > i {
+    color: #3C354F;
+    font-size: .8rem;
+}
+
+.feature_text p {
+    font-size: .9rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.banner_btn_area {
+    margin-top: 30px;
+}
+
+.banner_btn_area .banner_btn {
+    padding: 15px 30px;
+    border: none;
+    background-color: #FF42A5;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+}
+/* banner section styling end from here */

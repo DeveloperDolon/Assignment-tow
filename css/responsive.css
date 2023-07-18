@@ -1,6 +1,11 @@
 
 /* small device responsive code start from here */
 @media screen and (max-width:  576px) {
+
+    .view_screen_size {
+        width: 70%;
+    }
+
     .nav_section,
     .nav_items,
     .nav_items ul {   
@@ -20,14 +25,14 @@
     }
 
     .head_button {
-        width: 60%;
         margin-top: 30px;
+        padding: 15px 20px;
         justify-content: center;
         font-size: 3vw;
     }
 
     .head_button i {
-        font-size: 5vw;
+        font-size: 3vw;
     }
     
     .nav_icon h1 img {
@@ -36,7 +41,99 @@
     }
 
     .nav_icon h1 {
-        font-size: 2rem;
+        font-size: 10vw;
+    }
+
+    header nav {
+        box-shadow: none;
+    }
+
+    .banner_container {
+        flex-direction: column-reverse;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .banner_img_part img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .all_banner {
+        background-image: none;
+    }
+
+    .banner_text_part {
+        margin-top: 20px;
+        width: 100%;
+        background-image: url("../images/Group\ 14.png");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner_text_part h2 {
+        font-size: 1.2rem;
+    }
+
+    .banner_style_txt {
+        font-size: 2.3rem;
+    }
+
+    .feature_text p {
+        font-size: .6rem;
+        margin-top: 8px;
+    }
+
+    .banner_btn_area .banner_btn {
+        font-size: .7rem;
+        padding: 10px 20px;
+    }
+
+    .banner_btn_area {
+        margin-top: 10px;
     }
 }
-/* small device responsive code start from here */
+/* small device responsive code end from here */
+
+/* medium device responsive code start from here */
+@media screen and (min-width: 577px) and (max-width: 826px) {
+    .nav_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_items {
+        margin-top: 30px;
+    }
+
+    .banner_container {
+        flex-direction: column-reverse;
+    }
+
+    .all_banner {
+        background-image: none;
+    }
+
+    .banner_img_part {
+        text-align: center;
+    }
+
+    .banner_text_part {
+        margin-top: 50px;
+        width: 100%;
+        background-image: url("../images/Group\ 14.png");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+/* medium device responsive code end from here */
