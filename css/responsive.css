@@ -8,7 +8,8 @@
 
     .nav_section,
     .nav_items,
-    .nav_items ul {   
+    .nav_items ul,
+    .gamer_container {   
         flex-direction: column;
     }
 
@@ -41,7 +42,7 @@
     }
 
     .nav_icon h1 {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     header nav {
@@ -90,7 +91,7 @@
         margin-top: 8px;
     }
 
-    .banner_btn_area .banner_btn {
+    .banner_btn {
         font-size: .7rem;
         padding: 10px 20px;
     }
@@ -98,6 +99,38 @@
     .banner_btn_area {
         margin-top: 10px;
     }
+
+    .gamer_section {
+        background: none;
+    }
+
+    .gamer_container {
+        padding-top: 0px;
+        gap: 10px;
+    }
+
+    .gamer_text_part {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gamer_title {
+        font-size: 1.8rem;
+    }
+
+    .gamer_description {
+        font-size: .7rem;
+        line-height: 1.2rem;
+    }
+
+    .our_purpose strong {
+        font-size: .8rem;
+    }
+
+    .our_purpose .quote {
+        font-size: 1rem;
+    }
+
 }
 /* small device responsive code end from here */
 
@@ -134,6 +167,16 @@
         padding-left: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .gamer_container {
+        margin-top: 500px;
+        flex-direction: column;
+    }
+
+    .gamer_text_part {
+        width: 100%;
+        text-align: center;
     }
 }
 /* medium device responsive code end from here */

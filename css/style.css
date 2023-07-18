@@ -16,6 +16,23 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.banner_btn {
+    padding: 15px 30px;
+    border: none;
+    background-color: #FF42A5;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.text_gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* common style is end from here */
 
 
@@ -155,13 +172,55 @@ header nav {
     margin-top: 30px;
 }
 
-.banner_btn_area .banner_btn {
-    padding: 15px 30px;
-    border: none;
-    background-color: #FF42A5;
-    border-radius: 50px;
-    font-size: 1.1rem;
-    color: white;
-    font-weight: 500;
-}
 /* banner section styling end from here */
+
+/* ................................................... */
+
+/* we are gamer section styling start from here */
+.gamer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.gamer_section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer_img_part img{
+    width: 100%;
+}
+
+.gamer_text_part {
+    width: 52%;
+    text-align: right;
+}
+
+.gamer_title {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+
+.gamer_description {
+    font-size: .9rem;
+    line-height: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.our_purpose {
+    margin-top: 25px;
+}
+
+.our_purpose strong {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #534C64;
+}
+
+.our_purpose .quote {
+    color: #534C64;
+    margin-top: 5px;
+}
+/* we are gamer section styling end from here */
