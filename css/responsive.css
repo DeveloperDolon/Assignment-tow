@@ -1,0 +1,42 @@
+
+/* small device responsive code start from here */
+@media screen and (max-width:  576px) {
+    .nav_section,
+    .nav_items,
+    .nav_items ul {   
+        flex-direction: column;
+    }
+
+    .nav_items ul {
+        margin-top: 25px;
+    }
+
+    .nav_items {
+        align-items: center;
+    }
+
+    .nav_icon {
+        justify-content: center;
+    }
+
+    .head_button {
+        width: 60%;
+        margin-top: 30px;
+        justify-content: center;
+        font-size: 3vw;
+    }
+
+    .head_button i {
+        font-size: 5vw;
+    }
+    
+    .nav_icon h1 img {
+        width: 12vw;
+        margin-right: 17px;
+    }
+
+    .nav_icon h1 {
+        font-size: 2rem;
+    }
+}
+/* small device responsive code start from here */
