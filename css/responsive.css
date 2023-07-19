@@ -157,10 +157,6 @@
         font-size: .7rem;
     }
 
-    .play_content {
-        left: 37%;
-    }
-
     .playing_cards {
         flex-direction: column;
         gap: 50px;
