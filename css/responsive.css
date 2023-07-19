@@ -282,16 +282,17 @@
     }
 
     .footer_container {
-        width: 70%;
+        width: 80%;
     }
 
     .foot_icons {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        justify-content: space-between;
-        gap: 20px;
-        row-gap: 30px;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+        row-gap: 20px;
         font-size: 1.5rem;
     }
 
@@ -307,7 +308,7 @@
     }
 
     .foot_icons {
-        width: 100%;
+        width:60%;
         margin-top: 20px;
         text-align: center;
     }
