@@ -161,6 +161,54 @@
         left: 37%;
     }
 
+    .playing_cards {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .playing_text, 
+    .playing_img {
+        width: 100%;
+    }
+
+    .playing_section {
+        margin-top: 50px;
+    }
+
+    .playing_text h1 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .playing_text p {
+        width: auto;
+        font-size: .7rem;
+        line-height: 1rem;
+        text-align: center;
+    }    
+
+    .playing_img img {
+        float: right;
+    }
+
+    .playing_img img:first-child {
+        width: 80%;
+        height: auto;
+    }
+
+    #upper_img {
+        width: 35%;
+        transform: translateX(-186%) translateY(-78%);
+    }
+
+    .tow_part_pc img {
+        float: left;
+    }
+
+    .tow_part_pc #upper_img {
+        transform: translateX(182%) translateY(-78%);
+    }
+
 }
 /* small device responsive code end from here */
 
@@ -220,6 +268,40 @@
 
     .video_card {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .playing_cards {
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+
+    .playing_text, 
+    .playing_img {
+        width: 100%;
+    }
+
+    
+    .playing_img img {
+        float: right;
+    }
+
+    .playing_img img:first-child {
+        width: 80%;
+        height: auto;
+    }
+
+    #upper_img {
+        width: 35%;
+        transform: translateX(-186%) translateY(-78%);
+    }
+
+    .tow_part_pc img {
+        float: left;
+    }
+
+    .tow_part_pc #upper_img {
+        transform: translateX(182%) translateY(-78%);
     }
 }
 /* medium device responsive code end from here */
