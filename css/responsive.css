@@ -233,6 +233,25 @@
         font-size: .6rem;
     }
 
+    .category_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .category_item img {
+        width: 25px;
+    }
+
+    .category_item {
+        justify-content: space-evenly
+    }
+
+    .category_item strong {
+        font-size: .6rem;
+    }
+
 }
 /* small device responsive code end from here */
 

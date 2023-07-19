@@ -25,6 +25,7 @@
     font-size: 1.1rem;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .text_gradient {
@@ -447,3 +448,44 @@ header nav {
     margin-top: 30px;
 }
 /* careers section styling end form here */
+
+
+
+/* game category section styling start from here */
+.category_container {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.category_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 50px;
+    transition: .3s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.category_item img {
+    width: 3.1vw;
+}
+
+.category_item strong {
+    font-size: 1rem;
+    transition: .3s ease;
+}
+
+.category_item:hover {
+    box-shadow: 0px 0px 0px 1px #FF42A5;
+}
+
+.category_item:hover > strong {
+    color: #FF42A5;
+}
+/* game category section styling end from here */
