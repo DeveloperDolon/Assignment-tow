@@ -542,6 +542,10 @@ header nav {
     justify-content: space-around;
 }
 
+.foot_icons i {
+    cursor: pointer;
+}
+
 .footer_icon h1{
     display: flex;
     justify-content: center;
