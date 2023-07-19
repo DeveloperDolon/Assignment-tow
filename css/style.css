@@ -252,6 +252,7 @@ header nav {
 
 .card_img img{
     width: 100%;
+    transition: .3s ease;
 }
 
 .card p {
@@ -266,8 +267,8 @@ header nav {
     position: absolute;
     top: 32%;
     left: 30%;
-    visibility: hidden;
-    transition: .1s ease;
+    opacity: 0;
+    transition: .5s ease;
 }
 
 .play_content i {
@@ -277,9 +278,9 @@ header nav {
 }
 
 .overlay {
-    visibility: hidden;
+    opacity: 0;
     position: absolute;
-    transition: .3s ease;
+    transition: .5s ease;
 }
 
 .play_content strong {
@@ -287,7 +288,7 @@ header nav {
 }
 
 .card_img:hover .overlay {
-    visibility: visible;
+    opacity: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -298,12 +299,13 @@ header nav {
 }
 
 .card_img:hover .play_content {
-    visibility: visible;
+    opacity: 1;
     z-index: 2;
 }
 
 .card_img {
     position: relative;
+    transition: .5s ease;
 }
 
 .card_img:hover > img  {
@@ -351,6 +353,8 @@ header nav {
     position: relative;
     transform: translateX(-45%) translateY(-78%);
     margin-bottom: -200px;
+    border: 1px solid rgb(151, 146, 146);
+    border-radius: 8px;
 }
 
 .tow_part_pc {
@@ -380,4 +384,66 @@ header nav {
     line-height: 1.5rem;
 }
 
-/* playing cards styling start from here */
+/* playing cards styling end from here */
+
+
+/* careers section styling start form here */
+
+.careers_section {
+    background: #FF42A5;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.careers_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.careers_container > div {
+    width: 50%;
+}
+.career_img img {
+    width: 140%;
+}
+
+.career_title {
+    font-size: 2.7rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.workers_details  {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.workers_details p {
+    line-height: 1.8rem;
+}
+
+.career_text {
+    color: white;
+}
+
+.career_description {
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+.worker_address {
+    text-align: right;
+}
+
+.career_btn {
+    background-color: white;
+    color: #FF42A5;
+    margin-top: 30px;
+}
+/* careers section styling end form here */

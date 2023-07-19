@@ -209,6 +209,30 @@
         transform: translateX(182%) translateY(-78%);
     }
 
+    .careers_container {
+        flex-direction: column;
+        gap: 60px;
+        padding: 50px 0;
+    }
+
+    .careers_container > div {
+        width: 100%;
+    }
+
+    .career_title {
+        font-size: 2rem;
+    }
+
+    .career_description {
+        line-height: 1.2rem;
+        font-size: .6rem;
+    }
+
+    .workers_details  {
+        font-weight: 500;
+        font-size: .6rem;
+    }
+
 }
 /* small device responsive code end from here */
 
@@ -302,6 +326,16 @@
 
     .tow_part_pc #upper_img {
         transform: translateX(182%) translateY(-78%);
+    }
+
+    .careers_container {
+        flex-direction: column;
+        gap: 60px;
+        padding: 50px 0;
+    }
+
+    .careers_container > div {
+        width: 100%;
     }
 }
 /* medium device responsive code end from here */
