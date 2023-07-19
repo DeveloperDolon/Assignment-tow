@@ -252,11 +252,75 @@
         font-size: .6rem;
     }
 
+    .footer_icon {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer_icon h1{
+        font-size: 1.7rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_icon h1 img {
+        width: 25%;
+        margin-right: 5px;
+    }
+
+    .footer_nav {
+        width: 100%;
+    }
+
+    .footer_nav ul {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer_nav ul li a {
+        font-size: 1.8vw;
+    }
+
+    .footer_container {
+        width: 70%;
+    }
+
+    .foot_icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 1.5rem;
+    }
+
+    .more_nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
+    .more_nav ul li a {
+        font-size: .5rem;
+    }
+
+    .foot_icons {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .copyright_text {
+        margin-top: 10px;
+        font-size: .5rem;
+    }
+
 }
 /* small device responsive code end from here */
 
 /* medium device responsive code start from here */
-@media screen and (min-width: 577px) and (max-width: 826px) {
+@media screen and (min-width: 577px) and (max-width: 920px) {
     header {
         height: auto;
     }
@@ -355,6 +419,26 @@
 
     .careers_container > div {
         width: 100%;
+    }
+
+    .footer_nav ul {
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .foot_icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .more_nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 0;
+        margin-top: 20px;
     }
 }
 /* medium device responsive code end from here */

@@ -101,6 +101,8 @@ header nav {
 
 .nav_icon h1 {
     font-size: 2.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .nav_icon h1 img {
@@ -489,3 +491,79 @@ header nav {
     color: #FF42A5;
 }
 /* game category section styling end from here */
+
+
+/* footer section styling start from here */
+.footer_icon {
+    display: block;
+    color: white;
+}
+
+.footer_section {
+    padding: 100px;
+    background: #0B0223;
+}
+
+.footer_container {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.footer_icon h1 img {
+    width: 6%;
+}
+
+.footer_nav ul,
+.more_nav ul{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.footer_nav ul li ,
+.more_nav ul li{
+    list-style: none;
+}
+
+.footer_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+}
+
+.foot_icons {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+
+.footer_icon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.more_nav ul {
+    padding: 0px 50px;
+}
+
+.more_nav ul li a{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-size: .7rem;
+}
+
+.copyright_text {
+    margin-top: 20px;
+    color: rgb(177, 177, 177);
+    text-align: center;
+    font-size: .7rem;
+    text-align: center;
+}
+/* footer section styling end from here */
